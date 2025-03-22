@@ -35,7 +35,7 @@ Transform:
   - {fileID: 7340823640785049319}
   - {fileID: 3024817672589049848}
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2270151495635950210
 MeshFilter:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 4893248282112795414}
   m_Layer: 0
   m_Name: Hand
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 2685490345326811921}
   m_Layer: 0
   m_Name: Hand
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

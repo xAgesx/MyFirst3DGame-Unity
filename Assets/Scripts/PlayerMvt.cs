@@ -17,12 +17,12 @@ public class PlayerMvt : MonoBehaviour{
         if(Input.GetKey("d")){
             rb.AddForce(sideWaysSpeed * Time.deltaTime,0,0,ForceMode.VelocityChange);
         }
-         if(Input.GetKey("a")){
+        if(Input.GetKey("a")){
             rb.AddForce(-sideWaysSpeed * Time.deltaTime,0,0,ForceMode.VelocityChange);
         }
        
-        //On fall GameOver 
-        if(rb.position.y <= -10f){
+        //On fall GameOver and Manual reset
+        if(rb.position.y <= -10f || Input.GetKey("r")){
             FindObjectOfType<GameManager>().GameOver();
         } 
 

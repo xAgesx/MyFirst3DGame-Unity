@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour{
     public GameObject completeLevelUI ;
     public PlayerCollision player;
 
+    
     void CompleteLevelUI(){
         completeLevelUI.SetActive(true);    
     }
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour{
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
     
     
 }

@@ -6,7 +6,7 @@ public class MoveToSides : MonoBehaviour{
     public float position ;
     public Vector3 offset ;
     
-    void start(){
+    void Start(){
         position = obstacle.position.x  ;
     }
     void Update(){
@@ -14,6 +14,6 @@ public class MoveToSides : MonoBehaviour{
             offset *= -1;
         }
         
-        obstacle.position += offset ;
+        obstacle.position += offset * Time.deltaTime ;
     }
 }
