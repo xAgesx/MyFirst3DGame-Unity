@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacle: {fileID: 59808377949110390}
   position: 0
-  offset: {x: 0.01, y: 0, z: 0}
+  offset: {x: 1, y: 0, z: 0}
 --- !u!54 &3719138393748617138
 Rigidbody:
   m_ObjectHideFlags: 0

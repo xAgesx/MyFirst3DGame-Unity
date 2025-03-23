@@ -1,13 +1,12 @@
 
+using System;
 using UnityEngine;
 
 public class PlayerMvt : MonoBehaviour{
     
     public Rigidbody rb ;
-    public float speed = 1000; 
-    public float sideWaysSpeed = 20f ;
-
-    // Update is called once per frame
+    public float speed; 
+    public float sideWaysSpeed ;
     void FixedUpdate(){
         
         //Forward 

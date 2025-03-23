@@ -40,6 +40,7 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\WindSwitch.cs" />
      <Compile Include="Assets\Scripts\EndTrigger.cs" />
      <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
      <Compile Include="Assets\Scripts\PlayerCollision.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\Scripts\DoorSwitch.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\FallingTrigger.cs" />
+     <Compile Include="Assets\Scripts\WindEffect.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
