@@ -3127,6 +3127,14 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 5700959281389073122}
+    - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 5700959281389073121}
+    - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1062479413}
@@ -3273,10 +3281,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 729717180767472668, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+      propertyPath: content
+      value: Look Up ! \nIs it a bird ? Is it a plane ?\n NO, BE CAREFUL!
+      objectReference: {fileID: 0}
     - target: {fileID: 1118878204172783843, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1062479411}
     - target: {fileID: 1177057970243964631, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -3370,3 +3382,13 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+--- !u!1 &5700959281389073121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5420410462747864538, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+  m_PrefabInstance: {fileID: 5700959281389073120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5700959281389073122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5283521165865458645, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+  m_PrefabInstance: {fileID: 5700959281389073120}
+  m_PrefabAsset: {fileID: 0}

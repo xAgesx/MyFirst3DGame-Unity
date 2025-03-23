@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3139903786098652473
 Transform:
@@ -46,3 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   completeLevelUI: {fileID: 0}
   player: {fileID: 0}
+  pause: {fileID: 0}
+  pauseOn: 0
+  score: {fileID: 0}

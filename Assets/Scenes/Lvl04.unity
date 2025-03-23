@@ -241,6 +241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63a0aa5b7fe7c6f4ea27b07ca1d52d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorSwitch: {fileID: 0}
+  door: {fileID: 0}
+  delay: 0
 --- !u!1 &101690105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6473318099235193673, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
@@ -1447,6 +1450,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 729717180767472668, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+      propertyPath: content
+      value: New colors huh !\nWell GREEN is good right ?! \nBut what about purple
+        ?
+      objectReference: {fileID: 0}
     - target: {fileID: 1118878204172783843, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
       propertyPath: player
       value: 

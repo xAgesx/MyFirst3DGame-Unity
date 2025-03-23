@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 822316092}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2d61e23b38160b4da004cb2fef1231d, type: 3}
+  m_Script: {fileID: 11500000, guid: d8a993433b7979247849a1c398fba616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2133147377}
@@ -3014,6 +3014,14 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 3940430457817376821}
+    - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 3940430457817376823}
+    - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1062479413}
@@ -3034,6 +3042,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 729717180767472668, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+      propertyPath: content
+      value: What a windy day . \nHold on tight or you'll fly ! \nAnd yeah BLUE doesn't
+        harm .
+      objectReference: {fileID: 0}
     - target: {fileID: 1118878204172783843, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
       propertyPath: player
       value: 
@@ -3151,7 +3164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e44ec224e162c74fb0da92b2ad69654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pause: {fileID: 0}
+--- !u!1 &3940430457817376823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5420410462747864538, guid: 8e8ca031c75d12f46a81f28c1d5e0d40, type: 3}
+  m_PrefabInstance: {fileID: 3940430457817376820}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4008880770206632311
 PrefabInstance:
   m_ObjectHideFlags: 0
