@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class IntroScreen : MonoBehaviour {
     public Text introText;
     public String content;
-    private static Boolean introShown ;
+    public static Boolean introShown ;
     public GameObject introPanel;
     public Text lvl ;
 
@@ -14,7 +14,6 @@ public class IntroScreen : MonoBehaviour {
         Debug.Log(introShown);
 
         if(introShown == false){
-        Debug.Log("entered");
         content = content.Replace("\\n", "\n");
         ShowIntro(content);
         introShown = true;

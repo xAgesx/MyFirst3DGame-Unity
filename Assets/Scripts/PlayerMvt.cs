@@ -25,5 +25,7 @@ public class PlayerMvt : MonoBehaviour{
             FindObjectOfType<GameManager>().GameOver();
         } 
 
+
+       
     }
 }
