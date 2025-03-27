@@ -11,8 +11,6 @@ public class IntroScreen : MonoBehaviour {
     public Text lvl ;
 
     void Start() {
-        Debug.Log(introShown);
-
         if(introShown == false){
         content = content.Replace("\\n", "\n");
         ShowIntro(content);

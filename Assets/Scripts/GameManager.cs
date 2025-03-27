@@ -1,21 +1,28 @@
 
 using System;
+using UnityEditor.XR;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI ;
 
 public class GameManager : MonoBehaviour{
 
     public GameObject completeLevelUI ;
     public PlayerCollision player;
     public GameObject pause ;
-    public Boolean pauseOn;
+    public Boolean pauseOn,end;
     public GameObject score ;
+    public GameObject options;
+    public GameObject canvas;
+    
+    
     
     void CompleteLevelUI(){
         completeLevelUI.SetActive(true);    
     }
     public void Complete(){
         Debug.Log("Lvl Complete !");
+        end = true ;
         CompleteLevelUI();
         player.mvt.enabled = false;
 
@@ -40,13 +47,18 @@ public class GameManager : MonoBehaviour{
         score.SetActive(false);
     }
     public void Resume(){
-        
+//Disable All UIs
         Debug.Log("Resume");
         pause.SetActive(false);
+        options.SetActive(false);
+        canvas.transform.GetChild(3).gameObject.SetActive(false);
+        canvas.transform.GetChild(4).gameObject.SetActive(false);
+
+//Reset TimeFlow + Enable Score Ui
         Time.timeScale = 1;
         pauseOn = false ;
         score.SetActive(true);
-
+        
 
     }
 
@@ -58,6 +70,21 @@ public class GameManager : MonoBehaviour{
                 Resume();
             }
         }
+    }
+    public void DisplayOptionsUI(){
+        pause.SetActive(false);
+        options.SetActive(true);
+    }
+    public void DisplayControlsUI(){
+        
+        canvas.transform.GetChild(2).gameObject.SetActive(false);
+        canvas.transform.GetChild(3).gameObject.SetActive(true);
+
+    }
+    public void DisplayAudioUI(){
+        canvas.transform.GetChild(2).gameObject.SetActive(false);
+        canvas.transform.GetChild(4).gameObject.SetActive(true);
+
     }
     
     
