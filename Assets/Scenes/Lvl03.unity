@@ -862,6 +862,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1062479411}
+    - target: {fileID: 7448214025960198445, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: content
+      value: Look Up ! \nIs it a bird ? Is it a plane ?\n NO, BE CAREFUL!
+      objectReference: {fileID: 0}
     - target: {fileID: 7900491658867516131, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
