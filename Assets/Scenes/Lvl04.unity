@@ -2840,6 +2840,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 478928606305714117, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1667684151}
+    - target: {fileID: 478928606305714117, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 478928606305714117, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1637102809119571318, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2968,6 +2980,10 @@ PrefabInstance:
     - target: {fileID: 7900491658867516131, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisplayOptionsUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732874778235892756, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

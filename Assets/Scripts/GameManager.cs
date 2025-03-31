@@ -1,6 +1,5 @@
 
 using System;
-using UnityEditor.XR;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI ;
@@ -37,7 +36,10 @@ public class GameManager : MonoBehaviour{
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
-
+    public void Quit(){
+        Application.Quit();
+        Debug.Log("Quit");
+    }
     public void Pause(){
         
         Debug.Log("Pause");
