@@ -856,21 +856,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sounds
       objectReference: {fileID: 0}
-    - target: {fileID: 5499409663215064639, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1975254068}
-    - target: {fileID: 5499409663215064639, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
-      propertyPath: playerMvt
-      value: 
-      objectReference: {fileID: 2133147378}
     - target: {fileID: 6284057783435431109, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
       propertyPath: m_RootOrder
       value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 6284057783435431109, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.9999
       objectReference: {fileID: 0}
     - target: {fileID: 6284057783435431109, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1576,7 +1564,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1215514819534183055, guid: 6f9bd023d12ec084597228cc51166c55, type: 3}
   m_PrefabInstance: {fileID: 4226340886391197217}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975254068}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 800e91e90f47f6b499fb6c71af34a49a, type: 3}
@@ -2890,11 +2878,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e9dc417fe652794e82e6c326c08b0d2, type: 3}
---- !u!1 &1975254068 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6100804388298822357, guid: 6f9bd023d12ec084597228cc51166c55, type: 3}
-  m_PrefabInstance: {fileID: 4226340886391197217}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2022315774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3148,17 +3131,6 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 987525215906018970, guid: 6f9bd023d12ec084597228cc51166c55, type: 3}
   m_PrefabInstance: {fileID: 4226340886391197217}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2133147378 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 566148265535138995, guid: 6f9bd023d12ec084597228cc51166c55, type: 3}
-  m_PrefabInstance: {fileID: 4226340886391197217}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975254068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a5c0598294186a4babc78bbc8e32c6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2778610696287582574
 PrefabInstance:
   m_ObjectHideFlags: 0
