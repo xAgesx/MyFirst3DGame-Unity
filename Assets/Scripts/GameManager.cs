@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour{
     public GameObject score ;
     public GameObject options;
     public GameObject canvas;
+    public static string  rightKey = "d", leftKey = "a", restartKey = "r", pauseKey = "p";
     
     
     
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour{
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+   
     
     public void Quit(){
         Application.Quit();
@@ -48,12 +50,17 @@ public class GameManager : MonoBehaviour{
         Time.timeScale = 0;
         pauseOn = true;
         score.SetActive(false);
+        canvas.transform.GetChild(2).gameObject.SetActive(false);
+        canvas.transform.GetChild(3).gameObject.SetActive(false);
+        canvas.transform.GetChild(4).gameObject.SetActive(false);
+        
     }
     public void Resume(){
 //Disable All UIs
         Debug.Log("Resume");
         pause.SetActive(false);
         options.SetActive(false);
+        
         canvas.transform.GetChild(3).gameObject.SetActive(false);
         canvas.transform.GetChild(4).gameObject.SetActive(false);
 
@@ -66,7 +73,8 @@ public class GameManager : MonoBehaviour{
     }
 
     public void Update(){
-        if(Input.GetKeyDown("p")){
+        
+        if(Input.GetKeyDown(pauseKey.ToLower())){
             if(!pauseOn){
                 Pause();
             }else{

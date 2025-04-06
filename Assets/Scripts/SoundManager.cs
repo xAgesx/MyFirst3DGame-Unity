@@ -16,7 +16,7 @@ public class SoundManager : MonoBehaviour{
     }
     public void Update(){
 
-        if(canvas.transform.GetChild(1).gameObject.transform.position.x <= vector.x && !playingSound){
+        if(wooshSound != null && canvas.transform.GetChild(1).gameObject.transform.position.x <= vector.x && !playingSound){
             Woosh();
             Debug.Log("woosh");
             playingSound = true;

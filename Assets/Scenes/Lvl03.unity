@@ -261,6 +261,10 @@ PrefabInstance:
       value: Sounds
       objectReference: {fileID: 0}
     - target: {fileID: 5499409663215064639, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 557452829}
+    - target: {fileID: 5499409663215064639, guid: 54c1f4fb17a44b3449589a5503c7799e, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 4226340886391197219}
@@ -771,13 +775,45 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 1201604551303358039, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 1201604551303358039, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pause
+      objectReference: {fileID: 0}
     - target: {fileID: 1637102809119571318, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 1911789183882859902, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 1911789183882859902, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
     - target: {fileID: 2274170747753300484, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2405991470725385316, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 2405991470725385316, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayOptionsUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462809139670082351, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 2462809139670082351, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
       objectReference: {fileID: 0}
     - target: {fileID: 3988447946926907228, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_Pivot.x
@@ -875,14 +911,46 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1062479411}
+    - target: {fileID: 6150195078391223676, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 6150195078391223676, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayControlsUI
+      objectReference: {fileID: 0}
     - target: {fileID: 7448214025960198445, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: content
       value: Look Up ! \nIs it a bird ? Is it a plane ?\n NO, BE CAREFUL!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519346553752129061, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 7519346553752129061, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 7782155223584504823, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 7782155223584504823, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pause
       objectReference: {fileID: 0}
     - target: {fileID: 7900491658867516131, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 8092670518908070602, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3455274874960361140}
+    - target: {fileID: 8092670518908070602, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayAudioUI
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -893,14 +961,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3687126346522212502, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
   m_PrefabInstance: {fileID: 557452825}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &557452827 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6781485491109446963, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
-  m_PrefabInstance: {fileID: 557452825}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &557452828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2260958000572277571, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+  m_PrefabInstance: {fileID: 557452825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &557452829 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4668283595056503184, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
   m_PrefabInstance: {fileID: 557452825}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &572665409
@@ -1910,6 +1978,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5f645d423ade9449cecfdd916f6efc, type: 3}
+--- !u!1 &1128007843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 617479763112669207, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+  m_PrefabInstance: {fileID: 557452825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1178447738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2170,9 +2243,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5f645d423ade9449cecfdd916f6efc, type: 3}
---- !u!1 &1326959789 stripped
+--- !u!1 &1276099433 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8001614497048913895, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7413896995636055482, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
   m_PrefabInstance: {fileID: 557452825}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1425307933
@@ -3361,7 +3434,7 @@ PrefabInstance:
     - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
       propertyPath: pause
       value: 
-      objectReference: {fileID: 557452827}
+      objectReference: {fileID: 1276099433}
     - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
       propertyPath: score
       value: 
@@ -3377,7 +3450,7 @@ PrefabInstance:
     - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
       propertyPath: options
       value: 
-      objectReference: {fileID: 1326959789}
+      objectReference: {fileID: 1128007843}
     - target: {fileID: 8038108547616198161, guid: 7d010c0ce0710bf4291d0adcd1323e25, type: 3}
       propertyPath: completeLevelUI
       value: 
