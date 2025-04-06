@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.34117648}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.34117648}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3126,7 +3126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.34117648}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5114,22 +5114,26 @@ PrefabInstance:
     - {fileID: 3846733263949322383, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
     - {fileID: 6781485491109446963, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
     - {fileID: 8001614497048913895, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+    - {fileID: 8214474702321707440, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+    - {fileID: 5497480683245727983, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+    - {fileID: 617479763112669207, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
+    - {fileID: 7413896995636055482, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3988447946926907228, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 879138416}
+      addedObject: {fileID: 2107004079}
     - targetCorrespondingSourceObject: {fileID: 3988447946926907228, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 147973465}
+      addedObject: {fileID: 879138416}
     - targetCorrespondingSourceObject: {fileID: 3988447946926907228, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       insertIndex: 3
-      addedObject: {fileID: 859708510}
+      addedObject: {fileID: 147973465}
     - targetCorrespondingSourceObject: {fileID: 3988447946926907228, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       insertIndex: 4
-      addedObject: {fileID: 776808599}
+      addedObject: {fileID: 859708510}
     - targetCorrespondingSourceObject: {fileID: 3988447946926907228, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
       insertIndex: 5
-      addedObject: {fileID: 2107004079}
+      addedObject: {fileID: 776808599}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b433e9aa1d9ba374086bfdee0c81c693, type: 3}
 --- !u!1001 &1391254446
